@@ -18,7 +18,10 @@
   "lora_dropout": 0.1,
   "megatron_config": null,
   "megatron_core": "megatron.core",
-  "modules_to_save": null,
+  "modules_to_save": [
+    "classifier",
+    "score"
+  ],
   "peft_type": "LORA",
   "r": 8,
   "rank_pattern": {},
@@ -26,7 +29,7 @@
   "target_modules": [
     "c_attn"
   ],
-  "task_type": "CAUSAL_LM",
+  "task_type": "SEQ_CLS",
   "trainable_token_indices": null,
   "use_dora": false,
   "use_rslora": false
