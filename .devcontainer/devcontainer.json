@@ -7,6 +7,10 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
+
+	// comment the line below if your machine doesn't have a GPU
+	"runArgs": ["--gpus","all"],
+	// Use 'settings' to set *default* container specific settings.json values on container create.
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/dhoeric/features/act:1": {},
