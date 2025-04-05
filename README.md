@@ -1,4 +1,4 @@
-# 📘 Project1-Apply-Lightweight-Fine-Tuning-to-a-Foundation-Mode
+# 📘 Apply-Lightweight-Fine-Tuning-to-a-Foundation-Mode
 
 Lightweight fine-tuning is one of the most important techniques for adapting foundation models, as it enables customization with minimal computational resources.
 
