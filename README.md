@@ -48,7 +48,7 @@ You can run this project locally or in a GitHub Codespace using the provided dev
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/elewah/Project1-Apply-Lightweight-Fine-Tuning-to-a-Foundation-Model.git
+    git clone https://github.com/elewah/Apply-Lightweight-Fine-Tuning-to-a-Foundation-Model.git
     cd Project1-Apply-Lightweight-Fine-Tuning-to-a-Foundation-Model
     ```
 
