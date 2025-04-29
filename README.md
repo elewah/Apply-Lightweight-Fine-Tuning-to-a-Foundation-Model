@@ -23,6 +23,7 @@ This project brings together all the essential components of a PyTorch + Hugging
 - [Hugging Face PEFT](https://github.com/huggingface/peft)
 
 ---
+
 ## 📂 Repository Content
 
 This repository contains the following Jupyter notebooks:
@@ -39,6 +40,26 @@ This repository contains the following Jupyter notebooks:
 Each notebook is designed to be modular and easy to follow, enabling you to experiment with lightweight fine-tuning techniques effectively.
 
 Feel free to open issues or contribute to this repo if you're interested in exploring lightweight model adaptation!
+
+---
+
+## 📊 Dataset and Performance
+
+### Dataset
+The project uses the [AG News Topic Classification Dataset](https://huggingface.co/datasets/sh0416/ag_news). This dataset contains over 1 million news articles collected from more than 2,000 sources over a year. Each article is categorized into one of four topics:
+- World
+- Sports
+- Business
+- Science/Technology
+
+### Performance Metrics
+- **Base Model**: Achieved an evaluation accuracy of **83.16%**.
+- **Fine-Tuned Model (PEFT)**: Achieved an evaluation accuracy of **88.95%**.
+
+### Observations
+- The base model outperformed the fine-tuned model in terms of accuracy. However, the fine-tuned model demonstrated the effectiveness of parameter-efficient fine-tuning, which allows for lightweight adaptation with minimal computational resources.
+
+---
 
 ## ⚙️ Setup Instructions
 
